@@ -1,0 +1,18 @@
+:root { --bg:#0b0f19; --card:#141a2a; --text:#e6e8ee; --muted:#9aa3b2; --accent:#4f46e5; }
+* { box-sizing: border-box; }
+html, body { padding: 0; margin: 0; background: var(--bg); color: var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Noto Sans', 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji'; }
+.container { max-width: 940px; margin: 48px auto; padding: 24px; }
+.card { background: var(--card); border: 1px solid #22283a; border-radius: 16px; padding: 24px; box-shadow: 0 6px 30px rgba(0,0,0,.25); }
+h1 { font-size: 28px; margin: 0 0 6px; }
+.sub { color: var(--muted); margin-bottom: 16px; }
+label { display:block; font-weight:600; margin: 14px 0 6px; }
+textarea, input[type="file"] { width: 100%; background: #0f1524; color: var(--text); border: 1px solid #2a3350; border-radius: 12px; padding: 12px; }
+button { margin-top: 16px; padding: 12px 16px; border: 0; border-radius: 12px; background: var(--accent); color: white; font-weight: 700; cursor: pointer; }
+button:disabled { opacity: .6; cursor: not-allowed; }
+.result { margin-top: 24px; padding: 16px; background:#0f1524; border:1px solid #2a3350; border-radius:12px; }
+kbd { background:#0f1524; border:1px solid #2a3350; border-radius:6px; padding:2px 6px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}
+footer { color: var(--muted); margin-top: 24px; font-size: 14px; text-align:center;}
+.flex { display:flex; gap:16px; flex-wrap:wrap;}
+.col { flex:1 1 280px;}
+.badge { display:inline-block; padding:4px 8px; border-radius:999px; background:#10182c; border:1px solid #243156; margin:4px 6px 0 0;}
+hr { border: 0; height: 1px; background: #22283a; margin: 16px 0; }
